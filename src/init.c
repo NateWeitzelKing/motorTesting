@@ -35,4 +35,5 @@ void initializeIO() {
  */
 void initialize() {
   encoder = encoderInit(2, 3, false);
+  sonar = ultrasonicInit(7, 8);
 }

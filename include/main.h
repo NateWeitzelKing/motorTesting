@@ -28,6 +28,7 @@
 #include <API.h>
 
 Encoder encoder;
+Ultrasonic sonar;
 
 
 // Allow usage of this file in C++ programs
