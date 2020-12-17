@@ -1,4 +1,4 @@
-
+#ifndef _ELBOW_H_
 #define _ELBOW_H_
 
 #include "main.h"
@@ -25,3 +25,5 @@ while (1) {
   delay(20);
 }
 }
+
+#endif

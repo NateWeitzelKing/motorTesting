@@ -1,3 +1,5 @@
+#ifndef _HOMESHOULDER_H_
+#define _HOMESHOULDER_H_
 #include "main.h"
 #include "shoulder.h"
 // Sets the speeds of the left and right wheels of the chassis
@@ -20,3 +22,5 @@ motorStopAll();
 shoulderSet(0);
 printf("homing complete /n");
 }
+
+#endif

@@ -1,4 +1,4 @@
-
+#ifndef _SHOULDER_H_
 #define _SHOULDER_H_
 
 #include "main.h"
@@ -17,7 +17,9 @@ while (1) {
   arm = joystickGetAnalog(3, 3);
   motorSet(1, power + turn);
   motorSet(10, power - turn);
-  motorSet(2, arm);   
+  motorSet(2, arm);
 }
 
 }
+
+#endif
